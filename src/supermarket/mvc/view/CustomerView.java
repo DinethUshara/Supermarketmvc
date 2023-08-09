@@ -1,4 +1,4 @@
-/*
+ /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
@@ -397,9 +397,9 @@ public class CustomerView extends javax.swing.JFrame {
 
     public void loadAllCustomers() {
         try {
-            String[] collumns = {"Id", "Name", "Salary", "Dob", "Address", "Postal Code"};
+            String[] columns = {"Id", "Name", "Salary", "Dob", "Address", "Postal Code"};
 
-            DefaultTableModel dtm = new DefaultTableModel(collumns, 0) {
+            DefaultTableModel dtm = new DefaultTableModel(columns, 0) {
                 @Override
                 public boolean isCellEditable(int row, int column) {
                     return false;
