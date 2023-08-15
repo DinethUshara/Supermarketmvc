@@ -5,9 +5,8 @@
         <group>
             <file>file:/G:/IJSE/Supermarket-mvc-main/src/supermarket/mvc/db/DBConnection.java</file>
             <file>file:/G:/IJSE/Supermarket-mvc-main/src/supermarket/mvc/view/CustomerView.java</file>
-            <file>file:/G:/IJSE/Supermarket-mvc-main/src/supermarket/mvc/model/CustomerModel.java</file>
-            <file>file:/G:/IJSE/Supermarket-mvc-main/src/supermarket/mvc/SupermarketMvc.java</file>
-            <file>file:/G:/IJSE/Supermarket-mvc-main/src/supermarket/mvc/controller/CustomerController.java</file>
+            <file>file:/G:/IJSE/Supermarket-mvc-main/src/supermarket/mvc/view/itemView.java</file>
+            <file>file:/G:/IJSE/Supermarket-mvc-main/src/supermarket/mvc/controller/ItemController.java</file>
             <file>file:/G:/IJSE/Supermarket-mvc-main/src/supermarket/mvc/model/ItemModel.java</file>
         </group>
     </open-files>

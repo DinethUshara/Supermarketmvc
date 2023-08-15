@@ -35,6 +35,26 @@ public class ItemController {
         }
     }
     
+    public ItemModel searchItem(String ItemCode) throws SQLException{
+        Connection connection = DBConnection.getInstance().getConnection();
+        String query = "SELECT * FROM Item WHERE ItemCode=?";
+        PreparedStatement statement = connection.prepareStatement(query);
+        statement.setString(1, ItemCode);
+        ResultSet rst = statement.executeQuery();
+        while (rst.next()) {            
+            return new ItemModel(rst.getString(1),
+                    rst.getString(2), 
+                    rst.getString(3), 
+                    rst.getDouble(4), 
+                    rst.getInt(5));
+        }
+        
+        return null;
+        
+        
+    }
+    
+    
     public ArrayList<ItemModel> getAllItem() throws SQLException{
         Connection connection = DBConnection.getInstance().getConnection();
         String query = "SELECT * FROM Item";
