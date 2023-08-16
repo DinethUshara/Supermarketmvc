@@ -5,6 +5,7 @@
 package supermarket.mvc;
 
 import supermarket.mvc.view.CustomerView;
+import supermarket.mvc.view.OrderView;
 import supermarket.mvc.view.itemView;
 
 
@@ -20,7 +21,7 @@ public class SupermarketMvc {
      */
     public static void main(String[] args) {
         //new CustomerView().setVisible(true);
-        new itemView().setVisible(true);
+        new OrderView().setVisible(true);
     }
     
 }
