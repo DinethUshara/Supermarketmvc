@@ -472,7 +472,7 @@ public class OrderView extends javax.swing.JFrame {
 
     private void placeOrder() {
         try {
-            SimpleDateFormat sdf=new SimpleDateFormat("yyyy-mm-dd");
+            SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
             OrderModel orderModel=new OrderModel(orderIdText.getText(),sdf.format(new Date()),customerText.getText());
             
             String result=orderController.placeOrder(orderModel,orderDetailModels);
